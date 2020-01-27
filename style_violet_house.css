@@ -54,3 +54,12 @@
 .fondodes{
     background-color: #ccecef;
 }
+ .verpro{
+     text-decoration: none;
+     color: white;
+ }
+
+ .verpro:hover{
+    text-decoration: none;
+    color: white;
+}
