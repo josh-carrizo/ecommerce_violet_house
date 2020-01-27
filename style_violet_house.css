@@ -32,3 +32,19 @@
     overflow: auto;
 }
 
+.descripcion{
+    margin-top: 55px;
+
+}
+
+.lista{
+    display: inline-block;
+}
+
+.escoger{
+    padding-left: 0px;
+}
+
+.fondodes{
+    background-color: #ccecef;
+}
