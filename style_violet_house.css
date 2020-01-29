@@ -1,3 +1,4 @@
+
 .img_banner{
     width: 1000rem;
     height: 35rem;
@@ -52,8 +53,24 @@
 }
 
 .fondodes{
-    background-color: #ccecef;
+    background-color: #e1f5f6;
 }
+.fondodes-blanco{
+    background-color: white;
+}
+.fondodes-invierno{
+    background-color: #fbf8f1;
+}
+.fondodes-coral{
+    background: rgb(251,149,120);
+    background: linear-gradient(184deg, rgba(251,149,120,1) 0%, rgba(251,142,112,1) 40%, rgba(251,142,112,1) 56%, rgba(240,92,75,1) 100%);
+}
+.fondodes-grad{
+    background: rgb(184,179,170);
+    background: linear-gradient(184deg, rgba(184,179,170,1) 0%, rgba(199,196,189,1) 50%, rgba(187,184,177,1) 100%);
+}
+
+
  .verpro{
      text-decoration: none;
      color: white;
@@ -63,3 +80,18 @@
     text-decoration: none;
     color: white;
 }
+
+.card-deck{
+    margin: 5px;
+    padding-bottom: 20px;
+}
+
+.descrip{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    padding-bottom: 40px;
+    margin: 0px;
+
+}
+

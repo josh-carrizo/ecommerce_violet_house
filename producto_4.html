@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style_violet_house.css">
+
+    <!--Fuente especial-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+</head>
+    <title>Relax</title>
+</head>
+<body>
+    <!--Barra navegacion-->
+    <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg  navbar-dark bg-dark container-fluid fixed-top">
+            <a class="navbar-brand" href="index.html">Voilet House</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#registro">Regístrate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ecommerce_cart.html">Carrito de compras</a>
+                </li>
+          
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Nuestros Productos
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Blusas</a>
+                    <a class="dropdown-item" href="#">Pantalones</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Zapatos</a>
+                  </div>
+                </li>
+              </ul>
+              <form class=" form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="¿Que miray?" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+    </div>
+
+    <!--Descripcion producto--> 
+    <div class="container-fluid">
+        <div class="row">
+            <div class="card mb-3 descripcion" style="max-width: 100%;">
+                <div class="row no-gutters ">
+                  <div class="col-md-6">
+                    <img src="img/c5.jpg" class="card-img" alt="relax">
+                  </div>
+                  <div class="col-md-6 fondodes-invierno">
+                    <div class="card-body">
+                        <h2 class="card-title">Relax</h2>
+                        <p class="card-text lista">Chaleco Azul Relax</p>
+                        <h3 class="card-text">$12.990.-</h3>
+                        <p>2 cuotas precio contado</p>
+                        <table class="table table-striped col-md-12">
+                            <tbody>
+                              <tr>
+                                <th scope="row">Descripción</th>
+                                <td></td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Modelo</th>
+                                <td>FFSI5467</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Hecho en:</th>
+                                <td>India</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Temporada</th>
+                                <td>Primavera-Verano</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Material</th>
+                                <td>Lana - Aplicaciones</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">Estilo</th>
+                                <td>Casual</td>
+                              </tr>
+                              
+                            </tbody>
+                            </table>
+                        <div class="input-group mb-3 col-md-6 escoger">
+                            <div class="input-group-prepend">
+                              <label class="input-group-text" for="inputGroupSelect01">Escoge</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected>Talla</option>
+                              <option value="1">S</option>
+                              <option value="2">M</option>
+                              <option value="3">L</option>
+                            </select>
+                          </div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <button type="button" class="btn btn-secondary btn-success " data-toggle="modal" data-target="#exampleModal">Agregar al carrito</button>
+
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Escoge cantidad</h5>
+                      
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                          <label class="input-group-text" for="inputGroupSelect01">Escoge</label>
+                        </div>
+                        <select class="custom-select" id="inputGroupSelect01">
+                          <option selected>Cantidad</option>
+                          <option value="1">1</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                        </select>
+                      </div>
+                      Presione "Agregar al carrito" para continuar
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" id="Carrito" class="btn btn-secondary btn-success " data-toggle="modal">Agregar al carrito</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal" tabindex="-1" role="dialog" id="segundo_modal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">¡¡Felicidades!!</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Tu(s) producto(s) han sido agregados con éxito</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>           
+            </div>
+          </div>
+        </div>
+                      
+                    </div>
+                  </div>
+                </div>
+    </div>
+    
+
+    <!--productos similares-->
+    <div class="container-fluid descrip">Otros clientes también compraron</div>
+    <div class="card-deck">
+      <div class="card">
+        <img src="img/c1_v2.jpg" class="card-img-top" alt="Jeans">
+        <div class="card-body">
+          <h5 class="card-title">Jeans</h5>
+          <p class="card-text">Chaqueta de Jeans Americanino</p>
+          <p class="card-text">$ 12.990.-</p>
+          <p class="card-text"><small class="text-muted">3 cuotas precio contado de $4.330.-</small></p>
+          <button type="button" class="btn btn-secondary btn-danger"><a class="verpro" href="producto_1.html">Ver producto</a> </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/c3.jpg" class="card-img-top" alt="Rosa">
+        <div class="card-body">
+          <h5 class="card-title">Rosa Lovers</h5>
+          <p class="card-text">Vestido Rosa Encaje verano</p>
+          <p class="card-text">$ 15.990.-</p>
+          <p class="card-text"><small class="text-muted">2 cuotas precio contado de $7.995.-</small></p>
+          <button type="button" class="btn btn-secondary btn-danger"><a class="verpro" href="producto_2.html">Ver producto</a> </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/c4.jpg" class="card-img-top" alt="Retro">
+        <div class="card-body">
+          <h5 class="card-title">Retro</h5>
+          <p class="card-text">Falda Estampado Retro</p>
+          <p class="card-text">$ 17.990.-</p>
+          <p class="card-text"><small class="text-muted">2 cuotas precio contado de $8.995.-</small></p>
+          <button type="button" class="btn btn-secondary btn-danger"><a class="verpro" href="producto_3.html">Ver producto</a> </button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/c6_v2.jpg" class="card-img-top" alt="Cuadros rojos">
+        <div class="card-body">
+          <h5 class="card-title">A cuadros</h5>
+          <p class="card-text">Blusa Cuadros rojos verano</p>
+          <p class="card-text">$ 9.990.-</p>
+          <p class="card-text"><small class="text-muted">1 cuota precio contado de $9.990.-</small></p>
+          <button type="button" class="btn btn-secondary btn-danger"><a class="verpro" href="producto_5.html">Ver producto</a> </button>
+        </div>
+      </div>
+    </div>
+
+
+    <!--que oferton-->
+    <div id="registro" class="card text-white footer">
+                <img class="card-img" src="img/footer.jpg" alt="Card image">
+                <div class="card-img-overlay">
+                  <h5 class="card-title">Violet House</h5>
+                  <p class="card-text">
+                    <form>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputEmail4">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                          <label for="inputPassword4">Contraseña</label>
+                          <input type="password" class="form-control" id="inputPassword4" placeholder="Contraseña">
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputAddress">Dirección</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="Avenida siempre viva n°">
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputCity">Ciudad</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-4">
+                          <label for="inputState">Región</label>
+                          <select id="inputState" class="form-control">
+                            <option selected>Escoge </option>
+                            <option>Valparaíso</option>
+                            <option>Viña del Mar</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" id="gridCheck">
+                          <label class="form-check-label" for="gridCheck">
+                            Acepto notificaciones con nuevas ofertas.
+                          </label>
+                        </div>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Regístrame</button>
+                    </form>
+                  </p>
+                </div>
+    </div>
+
+
+
+        </div>
+    </div>
+
+        
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
